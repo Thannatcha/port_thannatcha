@@ -14,6 +14,9 @@ class Social extends Component{
                 <a href="#" target="_blank" rel="noopender noreferrer">
                     <i class="fab fa-facebook"></i>
                 </a>
+                <a href="#" target="_blank" rel="noopender noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
         )
     }

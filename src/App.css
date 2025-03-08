@@ -64,14 +64,63 @@ nav ul li a{
 }
 
 .social i {
-  padding-right: 30px;
-  font-size: 25px;
+  padding-right: 10px;
+  font-size: 20px;
   color: darkolivegreen;
 }
 
 .social i:hover {
   color: darkseagreen;
 }
+
+.typingeffect {
+  font-size: var(--typing-font);
+  margin-bottom: 20px;
+}
+
+.about {
+  text-align: center;
+}
+
+.subtopic{
+  margin: 10px 10px 30px 10px !important;
+}
+h1,h2,h3,h4 {
+  margin: 10px;
+}
+
+p {
+  font-size: var(--fontsize-p);
+}
+
+.widecard {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  border-radius: 10px ;
+  transition: .3s;
+  padding: .5rem;
+}
+
+.widecard:hover{
+  color: aliceblue;
+  background: rosybrown;
+  box-shadow: 3px 3px 10px;
+}
+
+.wd {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  border-radius: 10px ;
+  transition: .3s;
+  padding: .5rem;
+}
+
+.wd:hover{
+  color: aliceblue;
+  background: rosybrown;
+  box-shadow: 3px 3px 10px;
+}
+
 
 
 
