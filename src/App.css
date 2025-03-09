@@ -4,23 +4,27 @@
   --fontsize-p: 1.2rem;
   --fontsize-nav: 1.6rem;
   --typing-font: 3rem;
+
 }
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
   }
 
 .App {
   display: flex;
   width: 100vw;
   min-height: 100vh;
+  transition: all 0.3s ease-in-out;
 }
 
 nav{
-  padding: 60px 30px 0px 30px;
+  padding: 50px 10px 0px 10px;
   flex: var(--sidebar-flex);
   background-color: cadetblue;
+  font-weight: 500;
 }
 nav ul{
   font-size: var(--fontsize-nav);
@@ -39,7 +43,7 @@ nav ul li a{
 
 .condiv {
   padding: 100px;
-  background-color: gainsboro;
+  background-color: mintcream;
   flex: var(--condiv-flex);
 }
 
@@ -51,8 +55,8 @@ nav ul li a{
 }
 
 .profilepic {
-  border-radius: 50%;
-  width: 400px;
+  border-radius: 5%;
+  width: 300px;
   margin: 10px;
 }
 
@@ -120,6 +124,75 @@ p {
   background: rosybrown;
   box-shadow: 3px 3px 10px;
 }
+
+.w {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  border-radius: 10px ;
+  transition: .3s;
+  padding: .5rem
+}
+
+.w:hover{
+  color: aliceblue;
+  background: rosybrown;
+  box-shadow: 3px 3px 10px;
+}
+
+.skill ul {
+  display: flex;
+  background-color: rosybrown;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.skill ul li{
+  list-style: none;
+  margin: 20px;
+}
+
+.active {
+  font-weight: bolder;
+}
+button{
+  font-family: 'Courier New', Courier, monospace;
+}
+.button1{
+  margin: 20px;
+  background-color: rgb(185, 229, 247);
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  font: 1em sans-serif;
+  text-shadow: 5px;
+  font-weight: 800;
+  border: none;
+  
+}
+.button2{
+  margin: 20px;
+  background-color: rgb(208, 247, 185);
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  font: 1em sans-serif;
+  text-shadow: 5px;
+  font-weight: 800;
+  border: none;
+  
+}
+footer{
+  height: 50px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  margin-left: 30%;
+  
+}
+
+
+
+
+
 
 
 

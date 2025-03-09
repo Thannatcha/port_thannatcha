@@ -6,6 +6,8 @@ import About from './contents/About';
 import Resume from './contents/Resume'; 
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Skill from './contents/Skill';
+import Contact from './contents/Contact';
 
 function App() {
   return (
@@ -16,11 +18,14 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/resume" element={<Resume/>} />
+        <Route path="/skill" element={<Skill/>} />
+        <Route path="/contact" element={<Contact/>} />
         </Routes>
 
 
 
       </div>
+      
     </Router>
     
   );
