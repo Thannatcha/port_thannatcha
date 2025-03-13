@@ -1,18 +1,30 @@
 import React, { Component } from 'react'
+import Widecard from '../components/Widecard';
+import Wd from '../components/Wd';
+import W from '../components/W';
 
 class About extends Component{
     render(){
         return(
             <div className="condiv about">
                 <h1 className="subtopic">About Me</h1>
-                <img
-                    src="https://scontent.fbkk22-2.fna.fbcdn.net/v/t39.30808-6/355622173_3513265168957147_4607387343439816604_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE7DmhdmE1pu_VKuV8azbvfq7ckhFSGSYSrtySEVIZJhFgNp0ennoIHgqoMu3NVO4FiU37jAG6GOXn0wQUrepnq&_nc_ohc=p4odBv__D_cQ7kNvgHVSVYb&_nc_oc=AdjPIJ3C8Wh3VhcaFmaZF5Bpt3pJwrmbRu7uk8CY6d23LSpBpV6U48tRt5lwGbo-p4k&_nc_zt=23&_nc_ht=scontent.fbkk22-2.fna&_nc_gid=AyuPlC9HFzDxyLnA9JksE5v&oh=00_AYGD_yHNyR61H-GID5zq0VAbj42dWmbNLVDwW0vI_eYtxw&oe=67D39DC7"
-                    alt="profile"
-                    className="profilepic"
-                />
-                <h3>Hi I'm Thannatcha</h3>
-                <p>f2d5154a84a39461cf904dbf85784e31</p>
+                <img src="https://as-prod.asyncgw.teams.microsoft.com/v1/objects/0-jhb-d11-a1022b0ac8eb31b1cf6041994539dd16/views/imgo"
+                    alt="profile" className="profilepic"/>
+                <h2>Hi I'm Thannatcha</h2>
+                <p style={{ textAlign: 'left' }}>"I am a second-year student at King Mongkut's University of Technology North Bangkok, majoring in Electronic Computer Technology. I have a keen interest in web design and possess the ability to develop websites using various languages, including HTML, CSS, and JavaScript. 
+                    I am eager to continue learning and enhancing my skills to better meet the needs of teams and organizations.</p>
+                <h2>My Resume</h2>
+                <p style={{ textAlign: 'left' }}>
+                <Widecard title="Education" where7="Lopburi Technical College" where8="- Information Technology" f ="2019" t="2021"
+                where="King Mongkut's University of Technology North Bangkok" where1="- Electronic of Computer Technology" from="2023" to="Present"/>
+                <W ti="Work Experiences" where9="- Worked at CJ Supermarket from March to May" fr="2022" too="2023"/><br/>
+                <Wd title="Soft Skills" where2="- Easily adaptable to sociaty " where3="- Time Management"
+                where4="- Collaboration & Teamwork " where5="- Empathetic listening"/>
+        
+                </p>
+            
             </div>
+            
         )
     }
 }
