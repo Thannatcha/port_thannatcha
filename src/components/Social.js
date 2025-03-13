@@ -5,16 +5,16 @@ class Social extends Component{
         return(
             <div className="social"> 
             
-                <a href="#" target="_blank" rel="noopender noreferrer">
+                <a href="https://github.com/Thannatcha/port_thannatcha" target="_blank" rel="noopender noreferrer">
                     <i class="fab fa-github"></i>
                 </a>
                 <a href="#" target="_blank" rel="noopender noreferrer">
                     <i class="fab fa-line"></i>
                 </a>
-                <a href="#" target="_blank" rel="noopender noreferrer">
+                <a href="https://www.facebook.com/https://www.facebook.com/thannatcha.potitanod.7/" target="_blank" rel="noopender noreferrer">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a href="#" target="_blank" rel="noopender noreferrer">
+                <a href="https://www.instagram.com/yeen.thanat/" target="_blank" rel="noopender noreferrer">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>

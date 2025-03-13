@@ -160,13 +160,14 @@ button{
 .button1{
   margin: 20px;
   background-color: rgb(185, 229, 247);
-  width: 50px;
+  width: 100px;
   height: 50px;
-  border-radius: 20%;
+  border-radius: 30%;
   font: 1em sans-serif;
   text-shadow: 5px;
   font-weight: 800;
   border: none;
+  text-align: center;
   
 }
 .button2{
@@ -179,6 +180,20 @@ button{
   text-shadow: 5px;
   font-weight: 800;
   border: none;
+  text-align: center;
+  
+}
+.button3{
+  margin: 20px;
+  background-color: rgb(208, 247, 185);
+  width: 120px;
+  height: 50px;
+  border-radius: 20%;
+  font: 1em sans-serif;
+  text-shadow: 5px;
+  font-weight: 800;
+  border: none;
+  text-align: center;
   
 }
 footer{
