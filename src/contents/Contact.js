@@ -41,7 +41,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className="condiv">
+            <div className="condiv right-icons">
                 <h1 className="subtopic">Contact Us</h1>
                 <form onSubmit={this.handleSubmit} className="flex flex-col space-y-4">
                     <input 
