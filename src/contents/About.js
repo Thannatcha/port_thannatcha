@@ -20,7 +20,6 @@ class About extends Component{
                 <W ti="Work Experiences" where9="- Worked at CJ Supermarket from March to May" fr="2022" too="2023"/><br/>
                 <Wd title="Soft Skills" where2="- Easily adaptable to sociaty " where3="- Time Management"
                 where4="- Collaboration & Teamwork " where5="- Empathetic listening"/>
-        
                 </p>
             
             </div>

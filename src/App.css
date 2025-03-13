@@ -42,7 +42,7 @@ nav ul li a{
 }
 
 .condiv {
-  padding: 100px;
+  padding: 10px;
   background-color: mintcream;
   flex: var(--condiv-flex);
 }
@@ -56,9 +56,11 @@ nav ul li a{
 }
 
 .profilepic {
+  width: 80%;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
   border-radius: 5%;
-  width: 300px;
-  margin: 10px;
 }
 
 .social {
@@ -88,7 +90,9 @@ nav ul li a{
 }
 
 .subtopic{
+  font-size: 24px;
   margin: 10px 10px 10px 10px !important;
+  text-align: center;
 }
 
 h1,h2,h3,h4 {
@@ -97,6 +101,7 @@ h1,h2,h3,h4 {
 
 p {
   font-size: var(--fontsize-p);
+  text-align: justify;
 }
 
 .widecard {
