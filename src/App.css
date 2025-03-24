@@ -217,6 +217,29 @@ footer{
 .right-icons {
   display: flex; 
 }
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+
+.field {
+  margin:1px 0px 0px 0px;
+  display: block;
+  min-width: 300;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.input {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none
+}
 
 
 

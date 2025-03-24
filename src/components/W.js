@@ -7,7 +7,7 @@ class Ww extends Component{
                 <div className="w-w">
                 <h3>{this.props.ti}</h3>
                     <h4 className="tt">{this.props.where9}</h4>
-                    <h4 className="tt">{this.props.fr}-{this.props.too}</h4>
+                    
                     </div>
                 
             </div>
