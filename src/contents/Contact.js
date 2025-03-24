@@ -25,13 +25,13 @@ class Contact extends Component {
 
         const serviceID = 'default_service';
         const templateID = 'template_8rqlyl5';
-        const userID = 'your_emailjs_user_id'; // ต้องใส่ Public Key จาก EmailJS
+        const userID = 'yJ_bo3UwlsPQ20o9O'; 
 
         emailjs.sendForm(serviceID, templateID, this.formRef.current, userID)
             .then(() => {
                 btn.innerText = 'Send Email';
                 alert('Sent!');
-                this.setState({ name: '', email: '', message: '' }); // เคลียร์ฟอร์มหลังจากส่งสำเร็จ
+                this.setState({ name: '', email: '', message: '' }); 
             })
             .catch((err) => {
                 btn.innerText = 'Send Email';
