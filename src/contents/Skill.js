@@ -14,10 +14,10 @@ class Skill extends Component {
 
   render() {
     return (
-      <div className="condiv skill">
+      <div className="condiv skill ">
         <h1 className="subtopic">My Skills</h1>
 
-        <ul className="flex space-x-2">
+        <ul className="flex space-x-2 ">
           <button
             className={`button1 ${
               this.state.activeSkill === "HTML&CSS" ? "bg-blue-400 text-white" : "bg-gray-300"
@@ -34,7 +34,7 @@ class Skill extends Component {
           >
             PHP
           </button>
-          <button
+          <button 
             className={`button1 ${
               this.state.activeSkill === "GITHUB" ? "bg-green-400 text-white" : "bg-gray-300"
             }`}
@@ -61,7 +61,7 @@ class Skill extends Component {
           <button
             className={`button2 ${
               this.state.activeSkill === "BOOTSTRAP" ? "bg-green-400 text-white" : "bg-gray-300"
-            }`}
+            }` }
             onClick={() => this.setActiveSkill("BOOTSTRAP")}
           >
             BOOTSTRAP
