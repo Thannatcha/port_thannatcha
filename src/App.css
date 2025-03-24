@@ -106,13 +106,13 @@ p {
   text-align: justify;
 }
 
-.widecard {
+/*.widecard {
   display: flex;
   margin: 20px 0px 20px 0px;
   border-radius: 10px ;
   transition: .3s;
   padding: .5rem;
-}
+}*/
 
 /*.widecard:hover{
   color: aliceblue;
@@ -217,9 +217,9 @@ footer{
 .right-icons {
   display: flex; 
 }
-@media (max-width: 768px) {
-  body {
-      font-size: 14px;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
