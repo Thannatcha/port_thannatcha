@@ -23,7 +23,7 @@ class Contact extends Component {
         const btn = this.buttonRef.current;
         btn.innerText = 'Sending...';
 
-        const serviceID = 'default_service';
+        const serviceID = 'service_hoctqqd';
         const templateID = 'template_8rqlyl5';
         const userID = 'yJ_bo3UwlsPQ20o9O'; 
 

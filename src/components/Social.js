@@ -9,7 +9,7 @@ class Social extends Component{
                     <i class="fab fa-github"></i>
                 </a>
 
-                <a href="https://www.facebook.com/https://www.facebook.com/thannatcha.potitanod.7/" target="_blank" rel="noopender noreferrer">
+                <a href="https://web.facebook.com/thannatcha.potitanod.7/" target="_blank" rel="noopender noreferrer">
                     <i class="fab fa-facebook"></i>
                 </a>
                 <a href="https://www.instagram.com/yeen.thanat/" target="_blank" rel="noopender noreferrer">
