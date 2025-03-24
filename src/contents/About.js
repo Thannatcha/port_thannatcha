@@ -12,7 +12,7 @@ class About extends Component{
                     alt="profile" className="profilepic"/>
                 <h2>Hi I'm Thannatcha</h2>
                 <p style={{ textAlign: 'left', textIndent:'5%'}}>I am a second-year student at King Mongkut's University of Technology North Bangkok, majoring in Electronic Computer Technology. I have a keen interest in web design and possess the ability to develop websites using various languages, including HTML, CSS, and JavaScript. 
-                    I am eager to continue learning and enhancing my skills to better meet the needs of teams and organizations.</p>
+                    I am eager to continue learning and enhancing my skills to better meet the needs of teams and organizations.</p><br/>
                 <h2>My Resume</h2>
                 <p style={{ textAlign: 'left'}}>
                 <Widecard title="Education" where7="Lopburi Technical College" where8="- Information Technology" f ="2019" t="2021"

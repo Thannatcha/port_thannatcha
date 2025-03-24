@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Social from '../components/Social';
+//import Social from '../components/Social';
 
 class Contact extends Component {
     constructor(props) {
@@ -72,7 +72,7 @@ class Contact extends Component {
                     ></textarea><br/>
                     <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">Send</button>
                 </form>
-                <Social />
+                
             </div>
         );
     }
