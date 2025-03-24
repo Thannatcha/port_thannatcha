@@ -217,9 +217,9 @@ footer{
 .right-icons {
   display: flex; 
 }
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
   }
 }
 
